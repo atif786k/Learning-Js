@@ -1,0 +1,20 @@
+
+#container{
+    height: 30vh;
+    background-color: aquamarine;
+    border: 2px dotted black;
+}
+#btn{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: 2px dashed black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#main{
+    margin: 30px;
+    background-color: pink;
+    color: black;
+}

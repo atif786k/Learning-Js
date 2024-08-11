@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkMarks</title>
+    <style>
+        .container {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        #input-txt {
+            min-width: 15vw;
+            padding: 6px 5px;
+            border: 2px solid grey;
+            background-color: rgb(236, 235, 235);
+            border-radius: 10px;
+            font-weight: bolder;
+            font-size: 14px;
+
+        }
+
+        button {
+            padding: 6px 20px;
+            color: grey;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+
+        button:hover {
+            background-color: gray;
+            color: white;
+        }
+
+        #show-el {
+            margin-top: 3vh;
+            font-weight: lighter;
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+        }
+        ul{
+            padding-left: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="input-txt" placeholder=" type...">
+        <button id="save-input">SAVE</button>
+    </div>
+    <div id="show-el">
+        <ul id="el"></ul>
+    </div>
+    <script src="PRO-2.js"></script>
+</body>
+
+</html>
